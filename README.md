@@ -33,9 +33,11 @@ gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "[]"
 gsettings set org.gnome.desktop.wm.keybindings switch-applications-backward "['<Shift><Super>Tab', '<Shift><Alt>Tab']"
 ```
 
-Default                    |  Traditional
-:-------------------------:|:-------------------------:
-![](./videos/alttab-default.mp4)  | ![](./videos/alttab-traditional.mp4)
+Video clips demonstrating the gnome vs traditional behaviour:
+
+https://user-images.githubusercontent.com/631441/188605103-57566d00-6d08-4749-b62b-381079edf227.mp4
+
+https://user-images.githubusercontent.com/631441/188605257-5ed5bd7e-8212-4db2-862d-fdba3114fac4.mp4
 
 ## Extensions
 
@@ -47,20 +49,22 @@ applications still use such icons, so there we are.
 
 ![notification icons](./images/notification-icons.png)
 
-### ArcMenu
+### [ArcMenu](https://extensions.gnome.org/extension/3628/arcmenu/)
 
 The default method of opening or searching for applications is to open the
 activities view, which is a full screen animation, and can be very
 distracting.
 
-ArcMenu provides a more traditional Application menu with search capability,
+[ArcMenu](https://extensions.gnome.org/extension/3628/arcmenu/) provides a more traditional Application menu with search capability,
 and lets you tone down the visual distraction.
 
 Other extensions are available too with similar features.
 
-Default                    |  Traditional
-:-------------------------:|:-------------------------:
-![](./videos/appstart-default.mp4)  | ![](./videos/appstart-with-arcmenu.mp4)
+Video clips demonstrating Gnome vs ArcMenu:
+
+https://user-images.githubusercontent.com/631441/188605489-be6c16b9-5454-46b3-adc7-42a386cfe126.mp4
+
+https://user-images.githubusercontent.com/631441/188605513-f9993f23-5961-419a-959b-0288d1b4b9d8.mp4
 
 ### Bluetooth Quick Connect
 
