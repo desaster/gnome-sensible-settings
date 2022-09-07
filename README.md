@@ -170,6 +170,41 @@ This setting will change resize to win+right click.
 gsettings set org.gnome.desktop.wm.preferences resize-with-right-button true
 ```
 
+### Scrollbar width
+
+The prevailing UI trend today is to have extremely narrow scrollbars. The
+reasoning behind this appears to be that scrolling is better achieved using
+hardware solutions such as scrollwheel or touch scrolling.
+
+For this reason, UI designers have decided to make the scrollbar extremly
+small, assuming that nobody uses them for actual scrolling.
+
+However, in practice the scrollbar is still the best way to jump-scroll to
+different parts of the scrollable area, and no common hardware solutions
+achieve this yet in a way that is pleasant to use.
+
+For this reason, I choose to make my scrollbars bigger, so I don't have to
+stress myself trying to click a scrollbar only a few pixels wide.
+
+On Gnome, this requires a CSS hack, stored in both `~/.config/gtk-3.0/gtk.css`
+and `~/.config/gtk-4.0/gtk.css`:
+
+```css
+scrollbar slider {
+    /* Size of the slider */
+    border-radius: 22px;
+
+    /* Padding around the slider */
+    border: 5px solid transparent;
+    min-width: 18px;
+    min-height: 18px;
+}
+```
+
+On firefox, scrollbar width can be changed in `about:config`:
+
+`widget.non-native-theme.scrollbar.size.override` → `22`
+
 # Things to figure out
 
 There are some annoyances I haven't found fixes for.
