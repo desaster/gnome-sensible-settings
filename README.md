@@ -186,6 +186,8 @@ achieve this yet in a way that is pleasant to use.
 For this reason, I choose to make my scrollbars bigger, so I don't have to
 stress myself trying to click a scrollbar only a few pixels wide.
 
+https://user-images.githubusercontent.com/631441/188924176-3821a11d-ba58-4919-a258-03c173cb27dc.mp4
+
 On Gnome, this requires a CSS hack, stored in both `~/.config/gtk-3.0/gtk.css`
 and `~/.config/gtk-4.0/gtk.css`:
 
