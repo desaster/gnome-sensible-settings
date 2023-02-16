@@ -213,6 +213,8 @@ There are some annoyances I haven't found fixes for.
 
 ## Suspending soon because of inactivity
 
+![](./images/suspending-soon.png)
+
 This popup appears at some point, suggesting that the computer will suspend
 soon. It will however, not suspend soon, and the annoying popup just uselessly
 sits there.
